@@ -34,7 +34,7 @@ public class CustomInputManager : MonoBehaviour
 
     // Player Map
         // Values
-        public Vector2 iv_Player_Movement { get; private set; }
+        public static Vector2 iv_Player_Movement { get; private set; }
 
         // States
         public static bool it_Player_MovementDown { get; private set; }
